@@ -1,0 +1,76 @@
+.text-custom {
+  color: #e33324 !important;
+}
+
+.portfolio-section .portfolio-menu li a.active, .portfolio-section .portfolio-menu li a:hover {
+  background-color: #e33324 !important;
+  color: #fff !important;
+}
+
+.bg-custom-light {
+  background-color: #e95d51 !important;
+}
+
+.bg-custom-dark {
+  background-color: #bc2518 !important;
+}
+
+.btn-custom {
+  border-color: #e95d51 !important;
+  color: #fff;
+  background-color: #e33324;
+}
+
+.btn-custom:hover {
+  border-color: #e33324 !important;
+  background-color: #fff;
+  color: #e33324;
+}
+
+.custom-nav .navbar-nav li a.active,
+.custom-nav .navbar-nav li a:hover {
+  color: #e33324 !important;
+}
+
+.form-control:focus {
+  border-color: #e33324 !important;
+}
+
+.bg-custom,
+.bg-custom-hover:hover {
+  background-color: #e33324 !important;
+}
+
+.btn-outline-custom:hover {
+  color: #fff !important;
+  background-color: #e33324 !important;
+  border-color: #e33324 !important;
+}
+
+.carousel-indicators button {
+  background-color: #e33324 !important;
+}
+
+.section h2 {
+  background-color: #e33324 !important;
+}
+
+.services-section .card:hover {
+  background-color: #e33324 !important;
+}
+
+.blog-section .blog-article .article-title a:hover {
+  color: #e33324 !important;
+}
+
+.blog-section .blog-article .article-author a,
+.blog-section .blog-article .article-comments a {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #e33324 !important;
+}
+
+.blog-section .blog-article .article-author a:hover,
+.blog-section .blog-article .article-comments a:hover {
+  font-weight: bold;
+}

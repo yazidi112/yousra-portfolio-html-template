@@ -1,0 +1,37 @@
+/*===========================
+    Navbar
+=============================*/
+
+.custom-nav {
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    .navbar-nav li a {
+        font-size: 14px;
+        margin: 0 7px;
+        letter-spacing: 0.05em;
+        line-height: 24px;
+        text-transform: uppercase;
+        transition: all 0.5s;
+        font-weight: 700;
+    }
+    .navbar-brand {
+        text-transform: uppercase;
+        padding-bottom: 0;
+        .logo-light,
+        .logo-dark {
+            height: 44px;
+            width: auto;
+        }
+    }
+    .navbar-toggler {
+        font-size: 30px;
+        padding: 0px;
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+}

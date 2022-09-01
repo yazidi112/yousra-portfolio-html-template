@@ -1,0 +1,72 @@
+/*===========================
+    Header
+=============================*/
+
+header {
+    position: relative;
+    margin-bottom: 35px;
+    .header-content {
+        .profile-picture {
+            overflow: hidden;
+            box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+            position: relative;
+            margin-bottom: 10px;
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+            i {
+                color: white !important;
+            }
+            .profile-socialmedia {
+                text-align: center;
+                padding: 7px 5px;
+                list-style: none;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 2;
+                margin: 0;
+                position: absolute;
+                background: linear-gradient(1deg, #161616, transparent);
+                li {
+                    display: inline-block;
+                    margin: 10px 0px;
+                    a {
+                        display: block;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        border-radius: 10px;
+                        font-size: 22px;
+                        color: #fff;
+                        text-shadow: 1px 1px #333;
+                        transform: scale(1);
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+            img {
+                transition: all .6s;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    &::before {
+        content: '';
+        height: 59px;
+        width: 100%;
+        margin: auto;
+        background-color: inherit;
+        position: absolute;
+        bottom: -58px;
+        z-index: 1;
+        border-radius: 0 0 40px 40px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+        clip-path: polygon(0 0, 100% 0, 50% 100%);
+    }
+}

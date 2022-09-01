@@ -1,0 +1,55 @@
+/*=========================
+    Buttons & links
+===========================*/
+
+a {
+    transition: all .4s;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+button,
+button:focus {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-custom {
+    border: 1px solid;
+    i {
+        font-size: 16px;
+        margin-right: 3px;
+    }
+}
+
+.btn-outline-custom {
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0;
+    }
+    i {
+        font-size: 16px;
+        margin-right: 3px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .btn-outline-custom,
+    .btn-custom {
+        margin-bottom: 10px;
+    }
+}

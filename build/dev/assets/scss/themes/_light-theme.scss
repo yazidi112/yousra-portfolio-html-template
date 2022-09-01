@@ -1,0 +1,197 @@
+$primary-color: #333;
+$secondary-color: #6a6a6b;
+::selection {
+    background: rgba(166, 175, 189, 0.3);
+}
+
+body {
+    color: $primary-color;
+    background: #fff;
+}
+
+a {
+    color: $primary-color;
+    &:hover,
+    &:focus,
+    &:active {
+        color: #000;
+    }
+}
+
+
+/*=============================
+        Navbar
+============================*/
+
+.custom-nav {
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+    color: $primary-color !important;
+    background-color: #fff;
+    li a {
+        color: $primary-color !important;
+    }
+    .navbar-toggler {
+        color: #333 !important;
+    }
+}
+
+
+/*==========================
+        Helpers
+============================*/
+
+.bg-light {
+    background-color: #ededed !important;
+}
+
+.text-muted {
+    color: #49494B !important;
+}
+
+section {
+    background-color: rgb(251, 251, 251);
+}
+
+.contact-item {
+    background: #ededed !important;
+    color: #4D4D4D !important;
+    &:hover {
+        color: $primary-color;
+    }
+    i {
+        color: #49494B;
+    }
+}
+
+
+/*=========================
+    Buttons
+===========================*/
+
+.btn {
+    color: $primary-color;
+}
+
+.btn-custom {
+    &:hover,
+    &:focus,
+    &:active {
+        color: $primary-color;
+    }
+}
+
+.btn-outline-custom {
+    border: 2px solid #333;
+    color: #333;
+}
+
+
+/*==================== 
+    About me
+=====================*/
+
+.about-section {
+    i {
+        color: $primary-color;
+        font-size: 25px !important;
+        transition: all 0.5s;
+        display: inline-block
+    }
+    .progress {
+        height: 0.3rem;
+        .progress-bar {
+            background-color: $secondary-color;
+        }
+    }
+}
+
+.resume-container {
+    .items {
+        .card {
+            background-color: transparent;
+            .card-header {
+                .year {
+                    i {
+                        color: $primary-color;
+                    }
+                }
+            }
+            .card-body p {
+                color: #49494B;
+            }
+        }
+    }
+}
+
+
+/*===========================
+        Services
+=============================*/
+
+.services-section .card {
+    background-color: #fbfbfb;
+    color: darken($primary-color, 40%) !important;
+    border: 3px solid #ebebeb;
+    .card-title {
+        color: $primary-color;
+    }
+    i {
+        background: #dfdfdf;
+    }
+    &:hover {
+        color: #fff;
+        border: 0;
+        .card-title,
+        .card-text {
+            color: #fff;
+        }
+        i {
+            background-color: #fff;
+        }
+    }
+}
+
+
+/*====================
+        Contact  
+=====================*/
+
+.contact-section .form-group .form-control {
+    border: 1px solid #cfd0d0;
+    background-color: #f3f3f3;
+    color: $primary-color;
+    box-shadow: inset 0 4px 8px 0px rgba(69, 69, 69, 0.08);
+}
+
+
+/*====================
+        Articles
+=====================*/
+
+.blog-article {
+    box-shadow: 0 7px 20px #bababa;
+    .card-body {
+        background: #fff;
+    }
+}
+
+
+/*====================
+        portfolio
+=====================*/
+
+.portfolio-section .portfolio-menu li {
+    a {
+        background: #e0e0e0 !important;
+    }
+}
+
+
+/*====================
+        Footer
+=====================*/
+
+.footer {
+    background-color: #ededed !important;
+}

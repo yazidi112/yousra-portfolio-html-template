@@ -1,0 +1,82 @@
+/*===========================
+    Blog
+=============================*/
+
+.blog-article {
+    position: relative;
+    display: flex;
+    transition: all 300ms ease;
+    border: 0;
+    padding: 0;
+    height: 100%;
+    .card-img {
+        position: relative;
+        display: block;
+        background-color: #fff;
+        overflow: hidden;
+        border-radius: 0.25rem;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        .article-img {
+            transition: all 0.3s linear 0s;
+            height: auto;
+        }
+    }
+    &:hover .card-img .article-img {
+        transform: scale(1.05);
+    }
+    .article-date {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        z-index: 1;
+        overflow: hidden;
+        padding-bottom: 10px;
+        line-height: 24px;
+        text-align: center;
+        color: #333;
+        border: 2px solid #f8f9fa;
+        display: inline-block;
+        background-color: #ffffff;
+        text-transform: uppercase;
+        border-radius: 0.25rem;
+        span {
+            position: relative;
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20px;
+            display: block;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 0.25rem;
+        }
+    }
+    .card-body {
+        position: relative;
+        display: block;
+        padding: 2rem;
+        h3 {
+            margin-bottom: 0.8rem;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            li {
+                font-size: 15px;
+                margin-left: 15px;
+                margin-right: 15px;
+                i {
+                    font-size: 14px;
+                    margin-right: 2px;
+                }
+            }
+        }
+    }
+    .read-more {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+}

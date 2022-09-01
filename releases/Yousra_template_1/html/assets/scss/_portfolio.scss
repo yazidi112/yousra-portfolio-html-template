@@ -1,0 +1,60 @@
+/*===========================
+    Portfolio
+=============================*/
+
+.portfolio-section {
+    .portfolio-menu {
+        padding: 0;
+        margin-top: 10px;
+        text-align: center;
+        li {
+            a {
+                cursor: pointer;
+                display: block;
+                border-radius: 4px;
+                letter-spacing: 0.03em;
+                margin-bottom: 5px;
+                font-weight: 700;
+                font-size: 14px;
+                border: 2px solid rgba(0, 0, 0, 0.1);
+                padding: 6px 16px;
+                transition: all 0.5s;
+                margin-top: 5px;
+                box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.09);
+            }
+        }
+    }
+    .portfolio-filter {
+        .item {
+            position: relative;
+            margin: 10px;
+            .bg-overlay {
+                width: 0 !important;
+                transition: all .3s;
+            }
+            .details {
+                position: absolute;
+                margin: auto;
+                top: 0;
+                bottom: 0px;
+                left: 0;
+                right: 0;
+                height: fit-content;
+                padding: 9px;
+                background: transparent;
+                text-align: center;
+                color: #fff;
+                transform: scale(0);
+                transition: all .3s;
+            }
+            &:hover {
+                .details {
+                    transform: scale(1);
+                }
+                .bg-overlay {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}

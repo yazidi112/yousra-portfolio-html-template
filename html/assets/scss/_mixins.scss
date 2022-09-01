@@ -1,0 +1,73 @@
+//  Color Setter Mixin
+@mixin setColor($color) {
+    .text-custom {
+        color: $color !important;
+    }
+    .portfolio-section .portfolio-menu li a {
+        &.active,
+        &:hover {
+            background-color: $color !important;
+            color: #fff !important;
+        }
+    }
+    .bg-custom-light {
+        background-color: lighten($color, 10%) !important;
+    }
+    .bg-custom-dark {
+        background-color: darken($color, 10%) !important;
+    }
+    .btn-custom {
+        border-color: lighten($color, 10%) !important;
+        color: #fff;
+        background-color: $color;
+        &:hover {
+            border-color: $color !important;
+            background-color: #fff;
+            color: $color;
+        }
+    }
+    .custom-nav .navbar-nav li {
+        a.active,
+        a:hover {
+            color: $color !important;
+        }
+    }
+    .form-control:focus {
+        border-color: $color !important;
+    }
+    .bg-custom,
+    .bg-custom-hover:hover {
+        background-color: $color !important;
+    }
+    .btn-outline-custom:hover {
+        color: #fff !important;
+        background-color: $color !important;
+        border-color: $color !important;
+    }
+    .carousel-indicators button {
+        background-color: $color!important;
+    }
+    .section h2 {
+        background-color: $color !important;
+    }
+    .services-section .card:hover {
+        background-color: $color !important;
+    }
+    .blog-section .blog-article {
+        .article-title {
+            a:hover {
+                color: $color !important;
+            }
+        }
+        .article-author,
+        .article-comments {
+            a {
+                transition: .3s;
+                color: $color !important;
+                &:hover {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+/*=========================
+    Footer
+===========================*/
+
+.footer {
+    padding: 30px 0px;
+    .copyright {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .modes {
+        list-style-type: none;
+        text-align: right;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        .copyright {
+            text-align: center;
+        }
+        .modes {
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+}

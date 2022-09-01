@@ -1,0 +1,26 @@
+/*===========================
+    Services
+=============================*/
+
+.services-section .card {
+    border-radius: 10px;
+    i {
+        padding: 15px;
+        border-radius: 50%;
+        transition: all 0.5s;
+        margin: 15px;
+        display: inline-block;
+        font-size: 35px !important;
+        width: 80px;
+        height: 80px;
+        line-height: 49px;
+    }
+    &:hover {
+        transition: all 0.3s ease-in;
+        transform: scale(1.03) rotate(0deg);
+        transition: all .5s ease-out;
+    }
+    .card-text {
+        margin-bottom: 10px;
+    }
+}
