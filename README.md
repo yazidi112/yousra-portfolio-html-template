@@ -1,19 +1,4 @@
 Yousra Template 1.0.0
----------------
-
-[![](img/logo.png)](#)
-
-*   [Overview](#)
-*   [Features](#features-section)
-*   [Fonts](#fonts-section)
-*   [Icons](#icons-section)
-*   [JS & CSS libraries](#libraries-section)
-*   [JS & CSS initialisation](#css-initialisation-section)
-*   [HTML Structure](#html-structure-section)
-*   [CSS Structure](#css-structure-section)
-*   [JS Script](#js-section)
-
-Yousra Template 
 -------------------------------
 
 You will need some knowledge of HTML/CSS to edit this theme.
